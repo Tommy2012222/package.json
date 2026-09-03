@@ -51,7 +51,7 @@ export default async function handler(req, res) {
     } = data
 
     const result = await resend.emails.send({
-      from: "CRE8 Website <hello@cre8media.es>",
+      from: "CRE8 Website <hello@cre8it.media>",
       to: ["hello@cre8it.media"],
       replyTo: businessEmail || "hello@cre8media.es",
       subject: `New CRE8 lead — ${packageName || "Website enquiry"}`,
